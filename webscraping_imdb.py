@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 
 #the system req or libraries
-
+#much needed beautifulsoup
 
 def download_image(image_url, folder_name, actor_name):
     #os.makedirs(folder_name, exist_ok=True)  
