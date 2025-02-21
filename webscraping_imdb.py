@@ -1,6 +1,9 @@
 import os
 import requests
 from bs4 import BeautifulSoup
+import numpy as np
+import pandas as pd
+import matplotlib as plt
 
 #the system req or libraries
 #much needed beautifulsoup
