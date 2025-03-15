@@ -3,7 +3,10 @@ import requests
 from bs4 import BeautifulSoup
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
 #much needed beautifulsoup
+
+
 
 def download_image(image_url, folder_name, actor_name):
     #os.makedirs(folder_name, exist_ok=True)  
