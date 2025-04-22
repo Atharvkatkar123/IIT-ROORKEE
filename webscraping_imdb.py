@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 #much needed beautifulsoup
-#its necessary the output layers number of neurons is based on the exclusive classes
+
 
 
 def download_image(image_url, folder_name, actor_name):
