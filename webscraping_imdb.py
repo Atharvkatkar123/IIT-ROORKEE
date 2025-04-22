@@ -5,6 +5,9 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 #much needed beautifulsoup
+#its necessary the output layers number of neurons is based on the exclusive classes
+
+
 def download_image(image_url, folder_name, actor_name):
     #os.makedirs(folder_name, exist_ok=True)  
     save_path = os.path.join(folder_name, f"{actor_name}.jpg")  
